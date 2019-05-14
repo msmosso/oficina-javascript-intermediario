@@ -7,5 +7,5 @@ const clientes = require('../_dados/clientes.json')
 
 // escreva seu código na linha abaixo:
 
-
+const emails = clientes.map((c) => c.email)
 console.log(emails)

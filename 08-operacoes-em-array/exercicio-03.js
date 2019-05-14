@@ -8,5 +8,6 @@ const clientes = require('../_dados/clientes.json')
 
 // escreva seu código na linha abaixo:
 
+const clientesFiltrado = clientes.filter((c) => c.genero === 'feminino' && c.saldo > 2500.00)
 
-console.log(clientesFiltrados)
+console.log(clientesFiltrado)
